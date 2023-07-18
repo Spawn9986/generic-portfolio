@@ -105,6 +105,102 @@ nav [class*="fa-"]:hover {
   background-color: var(--hotmag);
 }
 
+/* intro styles */
+
+#intro {
+  padding-bottom: 10rem;
+}
+
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#intro .name {
+  font-family: var(--mono);
+}
+
+.name span {
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--aqua);
+  display: block;
+}
+
+#intro h2 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+/* contact section */
+
+#contact {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+#contact p:last-child {
+  margin-top: 3rem;
+}
+
+/* intro styles */
+
+#intro {
+  padding-bottom: 10rem;
+}
+
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#intro .name {
+  font-family: var(--mono);
+}
+
+.name span {
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--aqua);
+  display: block;
+}
+
+#intro h2 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+/* contact section */
+
+#contact {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+#contact p:last-child {
+  margin-top: 3rem;
+}
+
+/* footer section */
+footer {
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 3rem;
+}
+
 @media (min-width: 850px) {
   nav {
     max-width: 1200px;
@@ -116,84 +212,4 @@ nav [class*="fa-"]:hover {
     text-align: left;
     margin-right: auto;
   }
-}
-
-/* intro styles */
-
-#intro {
-  padding-bottom: 10rem;
-}
-
-#intro p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-#intro .name {
-  font-family: var(--mono);
-}
-
-.name span {
-  font-family: var(--sans);
-  font-size: 4rem;
-  color: var(--aqua);
-  display: block;
-}
-
-#intro h2 {
-  font-size: 4rem;
-  font-weight: normal;
-}
-
-/* contact section */
-
-#contact {
-  width: 400px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 3rem 0;
-}
-
-#contact p:last-child {
-  margin-top: 3rem;
-}
-
-/* intro styles */
-
-#intro {
-  padding-bottom: 10rem;
-}
-
-#intro p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-#intro .name {
-  font-family: var(--mono);
-}
-
-.name span {
-  font-family: var(--sans);
-  font-size: 4rem;
-  color: var(--aqua);
-  display: block;
-}
-
-#intro h2 {
-  font-size: 4rem;
-  font-weight: normal;
-}
-
-/* contact section */
-
-#contact {
-  width: 400px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 3rem 0;
-}
-
-#contact p:last-child {
-  margin-top: 3rem;
 }
