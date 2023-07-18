@@ -89,8 +89,24 @@ nav a {
   display: block;
 }
 
-nav a:hover {
+nav a:hover,
+nav [class*="fa-"]:hover {
   color: var(--magenta);
+}
+
+.button {
+  background-color: var(--magenta);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: var(--white);
+  background-color: var(--hotmag);
+}
+
+@media (min-width: 850px) {
+  
 }
 
 /* intro styles */
