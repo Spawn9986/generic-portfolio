@@ -14,6 +14,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -72,6 +73,16 @@ nav li:first-child {
   text-align: center;
 }
 
+nav [class*="fa-"] {
+  font-size: 170%;
+  color: var(--aqua);
+}
+
+nav h1 [class*="fa-"] {
+  font-size: 120%;
+  color: var(--aqua);
+}
+
 nav a {
   color: var(--white);
   text-decoration: none;
@@ -82,7 +93,7 @@ nav a:hover {
   color: var(--magenta);
 }
 
-/* intro stles */
+/* intro styles */
 
 #intro {
   padding-bottom: 10rem;
@@ -103,6 +114,47 @@ nav a:hover {
   color: var(--aqua);
   display: block;
 }
+
+#intro h2 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+/* contact section */
+
+#contact {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+#contact p:last-child {
+  margin-top: 3rem;
+}
+
+/* intro styles */
+
+#intro {
+  padding-bottom: 10rem;
+}
+
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#intro .name {
+  font-family: var(--mono);
+}
+
+.name span {
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--aqua);
+  display: block;
+}
+
 #intro h2 {
   font-size: 4rem;
   font-weight: normal;
