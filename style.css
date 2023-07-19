@@ -45,6 +45,10 @@ a:hover {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 /* nav bar */
 
 nav {
@@ -272,6 +276,23 @@ footer ul {
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
   padding: 1rem;
+}
+
+@media (min-width: 550px) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .text {
+    order: 2;
+    text-align: right;
+  }
+
+  #projects ul {
+    justify-content: flex-end;
+  }
 }
 
 @media (min-width: 850px) {
