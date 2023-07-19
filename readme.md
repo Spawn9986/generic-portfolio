@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Generic Portfolio</h1>
+<h1 align="center" id="title">Portfolio</h1>
 
 <p align="center"><img src="https://socialify.git.ci/Spawn9986/generic-portfolio/image?language=1&amp;name=1&amp;owner=1&amp;theme=Auto" alt="project-image"></p>
 
