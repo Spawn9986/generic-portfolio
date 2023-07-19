@@ -96,8 +96,11 @@ nav [class*="fa-"]:hover {
 
 .button {
   background-color: var(--magenta);
+  color: var(--white);
   padding: 0.5rem;
   border-radius: 5px;
+  font-family: var(--mono);
+  text-decoration: none;
 }
 
 .button:hover {
@@ -105,10 +108,18 @@ nav [class*="fa-"]:hover {
   background-color: var(--hotmag);
 }
 
+/* background color div */
+
+.section-plum {
+  background-color: var(--plum);
+}
+
 /* intro styles */
 
 #intro {
-  padding-bottom: 10rem;
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #intro p {
