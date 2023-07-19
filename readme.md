@@ -11,7 +11,7 @@
 <h2>Project Screenshots:</h2>
 
 <div align="center">
-<img src="https://cdn.w600.comps.canstockphoto.com/temporary-stamp-vector-clip-art_csp18645315.jpg" alt="project-flow-chart" width="650" height="650"/>
+<img src="https://github.com/Spawn9986/portfolio/blob/main/screenshot/portfolio.png" alt="project-flow-chart" width="926" height="833"/>
 </div>
 
 <h2>💻 Built with</h2>
