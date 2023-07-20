@@ -22,4 +22,4 @@ Technologies used in the project:
 
 <h2>👨‍💻 See More</h2>
 
-<a href="https://spawn9986.github.io/generic-portfolio/">Live Demo</a>
+<a href="https://spawn9986.github.io/portfolio/">Live Demo</a>
