@@ -223,6 +223,10 @@ nav [class*="fa-"]:hover {
   border-radius: 25px;
 }
 
+#projects .more-projects {
+  text-align: center;
+}
+
 /* footer section */
 footer {
   text-align: center;
